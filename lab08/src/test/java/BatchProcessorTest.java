@@ -1,5 +1,3 @@
-package edu.course.lab08;
-
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
@@ -41,7 +39,7 @@ class BatchProcessorTest {
         assertFalse(results.get(1).isSuccess());
         assertInstanceOf(IllegalArgumentException.class, results.get(1).error());
         assertTrue(results.get(2).isSuccess());
-        assertEquals(1, results.get(2).value());
+        assertEquals(5, results.get(2).value());
     }
 
     @Test

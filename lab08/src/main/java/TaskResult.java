@@ -1,5 +1,3 @@
-package edu.course.lab08;
-
 import java.util.Objects;
 
 public final class TaskResult<R> {
