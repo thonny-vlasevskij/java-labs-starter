@@ -1,5 +1,3 @@
-package edu.course.lab07;
-
 public class ProjectTask {
     private final String id;
     private final String title;

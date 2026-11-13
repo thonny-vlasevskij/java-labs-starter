@@ -1,5 +1,3 @@
-package edu.course.lab07;
-
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
